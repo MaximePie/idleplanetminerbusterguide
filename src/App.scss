@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  border: 1px solid #000;
+  width: 100vw;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+}
+
+.Materials {
+  border: 1px solid #000;
+
+  p {
+    // Nested styles
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    text-align: center;
+  }
+}
